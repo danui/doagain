@@ -166,7 +166,7 @@
             isAddingTask = false;
         };
         function tick() {
-            $timeout(tick, 10000);
+            $timeout(tick, 2000);
         }
         tick();
         console.log($scope.getTasks());
